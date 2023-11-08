@@ -1,0 +1,516 @@
+#wp{
+    background:#dabb85;
+    top:0px;
+    width: 100%;
+    height: 100px;
+
+}
+.menu{
+    width:100%;
+    height: 100px;;
+    background:#dabb85;
+    position: fixed;
+    top:0px;
+}
+.menu img{
+    width: 60px;;
+    height: 60px;;
+    margin-left: 20px;;
+    
+}
+.banner img{
+    width: 100%;
+    height: 800px;
+    margin-top:93px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#main-menu{
+  display: flex;
+ list-style: none;
+ margin-right: 700px;;
+ padding: 15px;
+ margin-top: 20px;;
+}
+#main-menu li {
+    position: relative;
+}
+#main-menu li a{
+   color: #462c1f;
+   margin-left: 70px;;
+   text-decoration:none;
+   font-family:Bahnschrift SemiBold;
+   font-weight: bold;
+   font-size: 20px;;
+}
+
+#main-menu ul.sub-menu{
+    position: absolute;
+    background:#dabb85;
+    color: #462c1f;
+    padding: 15px 10px;
+    list-style:none ;
+    width: 160px;;
+    margin-left: 40px;
+    border-radius: 0px 0px 20px 20px;
+   
+    display: none;
+}
+#main-menu li:hover ul.sub-menu{
+    display: block;
+}
+#main-menu ul.sub-menu li{
+    width: 160px;;
+    
+  
+}
+
+#main-menu ul.sub-menu a{
+    
+    
+    margin-left: 20px;;
+    
+
+}
+#main-menu  li:hover a{
+    color: #ffffff;
+}
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+#main-menu ul.sub-menu li:hover {
+    background: rgb(255, 255, 255);;
+    
+}
+#main-menu ul.sub-menu li:hover a{
+    
+    color: #462c1f;
+}
+
+
+
+ .slideshow-container {
+  /* Điều chỉnh chiều rộng của slideshow */
+    overflow: hidden;
+  }
+
+  .slideshow {
+    display: flex;
+    transition: transform 0.5s;
+  }
+ #box {
+   
+    width: 100%;
+    height: 3200px;
+   
+    background:#e6c489;
+ }
+.tt{
+    width: 550px;
+    height: 650px;;
+
+    float: left;
+    margin-left: 55px;
+    margin-top: 100px;
+   
+}
+
+
+#vechungtoi1 h1{
+    display:none;
+}
+#do_an h1{
+    display:none;
+}
+#box h1{
+    display:none;
+
+}
+.tt h2{
+    text-align: center;
+    font-family:Bahnschrift SemiBold;
+   margin-top:20px;
+    height:60px;
+
+}
+
+#vechungtoi1{
+    width: 100%;
+     height: 850px;
+     background:#e6c489;
+     margin-top: -5px;
+ 
+ }
+
+ #vechungtoi1 img{
+  width: 700px;
+  height: 610px;
+  margin-left: 190px;
+  margin-top: 40px;
+  float: left;
+ }
+ #vechungtoi1 h2 {
+    margin-top: 50px;;
+    font-family:Bahnschrift SemiBold;
+    width: 250px;
+    float:right;
+    margin-right: 550px;
+    font-size: 35px;
+
+ }
+ #vechungtoi1 p{
+   
+    margin-right: 200px;
+    width: 600px;
+    float: right;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 20px;;
+    margin-top: 5px;;
+
+ }
+ #vechungtoi1 a{
+    float: right;
+ 
+    color: black;
+    font-family:Bahnschrift SemiBold;
+      margin-right: 690px;;
+    font-size: 20px;;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #do_an{
+    width: 1895px;
+     height: 1000px;
+     background-image: url('../img/nen.png');
+    
+    
+    
+ }
+
+ .slideshow-container {
+    width: 1800px;/* Điều chỉnh chiều rộng của slideshow */
+    height: 800px;
+    
+    margin: 0 auto;
+   
+    float: left;
+    margin-top: -50px;
+    margin-left: 40px;
+   
+
+
+  }
+
+  .product-slide {
+    display: none;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-top: 1700px;;
+  }
+  .prev{
+    left: 30px;
+  }
+  .next {
+    right: 30px;
+  }
+
+  .prev:hover, .next:hover {
+    background:#dabb85;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .aa{
+    width: 450px;
+    height: 700px;;
+
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+    
+}
+.aa img{
+    width: 450px;
+   height: 580px;;
+}
+.aa h3{
+    font-family:Bahnschrift SemiBold;
+    text-align: center;
+    font-size: 30px;
+    margin-top:10px;
+}
+.aa p{
+    font-family:Bahnschrift SemiBold;
+    text-align: center;
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+
+ #do_uong{
+    width: 100%;
+     height: 600px;
+     background:#e6c489;
+   
+
+     
+ }
+
+ .bb{
+    width: 550px;
+    height: 600px;;
+
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+   
+    
+    
+}
+.bb img{
+    width: 550px;
+   height: 380px;;
+ 
+}
+.bb h3{
+    font-family:Bahnschrift SemiBold;
+    text-align: center;
+    font-size: 30px;
+    margin-top:10px;
+}
+.bb p{
+    font-family:Bahnschrift SemiBold;
+    text-align: center;
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+#bottom{
+   margin-top:5800px;
+    width: 100%;
+    height: 400px;;
+    background: black;
+}
+.tong{
+    width: 70%;
+    height: 400px;;
+    margin-left: 15%;
+ 
+}
+.cc{
+    width: 350px;
+    height: 320px;
+    margin-top: 50px;;
+    
+    margin-left: 60px;;
+    float: left;
+
+}
+.cc h2{
+    font-family:Bahnschrift SemiBold;
+    margin-top: 50px;;
+    color:#e6c489;
+}
+.cc p{
+    width:95%;
+    font-family: Arial;
+    color:#ffffff;
+    margin-top:40px;
+}
+.cc button{
+    margin-top: 10px;;
+    width: 150px;;
+    height: 30px;
+    background: black;
+    color: #ffffff;
+    border: 1px solid white;
+    
+}
+.tt p{
+  
+    font-size: 20px;;
+    margin-left: 30px;;
+    width: 90%;
+    font-family:Arial ;
+    margin-top: 40px;;
+}
+.tt p a{
+    font-family:Bahnschrift SemiBold;
+    color:black;
+}
+
+
+
+
+
+
+      /* Import Google font - Poppins */
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .wrapper {
+       
+        width: 90%;
+       
+        margin-left: 5%;
+        height:700px;
+        
+      }
+      .wrapper i {
+        top: 38%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        font-size: 1.25rem;
+        position: relative;
+      
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+      }
+      .wrapper i:active{
+        transform: translateY(-50%) scale(0.85);
+      }
+      .wrapper i:first-child{
+        left: 2px;
+        float:left;
+        margin-right:-100px;
+        margin-top:70px;
+      
+       
+      }
+      .wrapper i:last-child{
+        right: -25px;
+        margin-top: -720px;
+        float:right;
+        margin-right: 30px;;
+      }
+      .wrapper .carousel{
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+      }
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
+      .carousel.no-transition {
+        scroll-behavior: auto;
+      }
+      .carousel.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+      }
+      .carousel.dragging .card {
+        cursor: grab;
+        user-select: none;
+      }
+      .carousel :where(.card, .img) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .carousel .card {
+        scroll-snap-align: start;
+        height: 800px;
+        list-style: none;
+      
+        cursor: pointer;
+      
+        flex-direction: column;
+        border-radius: 8px;
+        
+
+      }
+      .carousel .card .img {
+      
+        height: 530px;
+        width: 500px;
+        margin-top: -65px;
+      }
+      .card .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+      
+      }
+      .carousel .card h2 {
+        font-weight: 500;
+        font-size: 1.56rem;
+        margin: 30px 0 5px;
+      }
+      .carousel .card span {
+        color: #6A6D78;
+        font-size: 1.31rem;
+      }
+      
+      @media screen and (max-width: 900px) {
+        .wrapper .carousel {
+          grid-auto-columns: calc((100% / 2) - 9px);
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .wrapper .carousel {
+          grid-auto-columns: 100%;
+        }
+      }
